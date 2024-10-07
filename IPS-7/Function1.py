@@ -1,4 +1,6 @@
-print(bin(number))
+def convert(number):  
+################################
+    print(bin(number))
     print(oct(number))
     print(hex(number))
     for i in range(number + 1):
@@ -12,3 +14,6 @@ print(bin(number))
 import re
 s1 = "Please Plant More Trees"
 x = re.findall("\S",s1)
+###################################
+n=int(input())
+convert(n)
