@@ -1,4 +1,5 @@
 def game(S):
+###########################
   if S == S[::-1]:  
           return len(S) 
       else:
