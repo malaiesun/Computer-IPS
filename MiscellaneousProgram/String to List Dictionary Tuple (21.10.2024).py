@@ -16,3 +16,20 @@ def sliceString(lst):
 
 sr = getString()
 print(sliceString(sr))
+
+#Another Version of the same program 
+def strings_(n):
+    lists = []
+    dicts = {}
+    tuples = ()
+    for i in range(n):
+        line = input("enter the strings:")
+        words = line.split()
+        lists.extend(words)
+        tuples = tuple(lists)
+        dicts = {word : len(word) for word in words}
+    print(lists)
+    print(tuples)
+    print(dicts)
+n = int(input())
+strings_(n)       
