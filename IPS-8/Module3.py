@@ -1,8 +1,8 @@
 import re
 ###################################
 st = input()
-char1 = input()
-char2 = input()
+char1 = input()[0]
+char2 = input()[0]
 
 if char1 in st or char2 in st:
     print("match")
@@ -11,6 +11,7 @@ else:
 
 # this method uses the re module
 import re
+###################################
 txt = input()
 a = input()[0]
 b = input()[0]
