@@ -6,7 +6,8 @@ char2 = input()
 
 if char1 in st or char2 in st:
     print("match")
-
+else:
+    print("no match")
 
 # this method uses the re module
 import re
